@@ -23,19 +23,19 @@ export default function Slider_1() {
       >
         <SwiperSlide className="text-center">
           <Image
-            src="https://dkstatics-public.digikala.com/digikala-adservice-banners/e2fc3f348912c129e312583df9813896d50bb1ed_1781364388.jpg?x-oss-process=image/quality,q_95/format,webp"
+            src="https://dkstatics-public.digikala.com/digikala-adservice-banners/608ace6a51a08bd587cacc3595ca478f4b6b0fb1_1781107061.jpg?x-oss-process=image/quality,q_95/format,webp"
             alt="advertisement"
-            width={1000}
-            height={1000}
-            className="w-full h-full object-center"
+            width={2500}
+            height={1500}
+            className="w-full h-full object-fill"
           />
         </SwiperSlide>
         <SwiperSlide className="text-center">
           <Image
             src="https://dkstatics-public.digikala.com/digikala-adservice-banners/4bde66f7226c2cc7bc6687c81a123324d5260519_1778056660.jpg?x-oss-process=image/quality,q_95/format,webp"
             alt="advertisement"
-            width={1000}
-            height={1000}
+            width={2500}
+            height={1500}
             className="w-full h-full object-center"
           />
         </SwiperSlide>
@@ -43,8 +43,8 @@ export default function Slider_1() {
           <Image
             src="https://dkstatics-public.digikala.com/digikala-adservice-banners/106a9545642ec0528d7bcb59f56625689ccac627_1781703061.jpg?x-oss-process=image/quality,q_95/format,webp"
             alt="advertisement"
-            width={1000}
-            height={1000}
+            width={2500}
+            height={1500}
             className="w-full h-full object-center"
           />
         </SwiperSlide>

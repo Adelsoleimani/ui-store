@@ -7,12 +7,12 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import Link from "next/link";
 import Image from "next/image";
-import { product } from "@/types/products";
+import { Product } from "@/types/products";
 import { formatNumber } from "@/utils/formatNumber";
 
 interface InSliderProduct {
   title: string;
-  products: product[];
+  products: Product[];
 }
 function SliderProduct({ title, products }: InSliderProduct) {
   return (
@@ -30,7 +30,7 @@ function SliderProduct({ title, products }: InSliderProduct) {
         {products.map((product) => {
           return (
             <SwiperSlide
-              key={product.title}
+              key={product.id}
               className=" text-center flex justify-center border  border-gray-200 items-center"
             >
               <Link
