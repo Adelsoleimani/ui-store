@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Slider2 from "../slider/Slider2";
+import Slider2 from "@/components/slider/Slider2";
 import { CircleDollarSign } from "lucide-react";
 
 function OfferSection() {

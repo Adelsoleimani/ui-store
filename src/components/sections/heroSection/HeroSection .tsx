@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Slider_1 from "../slider/Slider1";
+import Slider_1 from "@/components/slider/Slider1";
 
 function HeroSection() {
   return (

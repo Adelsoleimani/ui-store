@@ -1,7 +1,7 @@
-import BlogSection from "@/components/blogSection/BlogSection";
-import HeroSection from "@/components/heroSection/HeroSection ";
-import OfferSection from "@/components/offerSection/OfferSection";
-import ProductSections from "@/components/productSections/ProductSections";
+import BlogSection from "@/components/sections/blogSection/BlogSection";
+import HeroSection from "@/components/sections/heroSection/HeroSection ";
+import OfferSection from "@/components/sections/offerSection/OfferSection";
+import ProductSections from "@/components/sections/productSections/ProductSections";
 
 export default function Home() {
   return (

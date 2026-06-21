@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "@/components/navbar/Navbar";
-import Container from "@/components/container/Container";
+import Navbar from "@/components/layout/navbar/Navbar";
+import Container from "@/components/layout/container/Container";
 import localFont from "next/font/local";
-import Footer from "@/components/footer/Footer";
+import Footer from "@/components/layout/footer/Footer";
 
 const rubik = localFont({
   src: [

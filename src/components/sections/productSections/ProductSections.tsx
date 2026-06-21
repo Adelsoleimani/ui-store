@@ -1,10 +1,10 @@
 import Image from "next/image";
-import SliderProduct from "../slieder-product/Slider-product";
-import { product } from "@/types/products";
+import SliderProduct from "@/components/slieder-product/Slider-product";
+import { Product } from "@/types/products";
 import { products1 } from "@/db-fake";
 
 function ProductSections() {
-  const products: product[] = products1;
+  const products: Product[] = products1;
   return (
     <>
       <SliderProduct title="محصولات جدید" products={products} />
