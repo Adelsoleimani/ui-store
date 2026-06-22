@@ -24,6 +24,12 @@ function SliderProduct({ title, products }: InSliderProduct) {
         slidesPerView={5}
         spaceBetween={10}
         navigation={true}
+        breakpoints={{
+          0: { slidesPerView: 2 },
+          500: { slidesPerView: 3 },
+          786: { slidesPerView: 4 },
+          992: { slidesPerView: 5 },
+        }}
         modules={[Navigation]}
         className="mySwiper w-full h-85"
       >

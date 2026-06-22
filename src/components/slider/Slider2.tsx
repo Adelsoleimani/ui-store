@@ -23,8 +23,14 @@ function Slider2() {
         pagination={{
           clickable: true,
         }}
+        breakpoints={{
+          0: { slidesPerView: 1 },
+          500: { slidesPerView: 2 },
+          786: { slidesPerView: 3 },
+          992: { slidesPerView: 4 },
+        }}
         modules={[Pagination]}
-        className="mySwiper w-3/4 h-full"
+        className="mySwiper w-3/4 max-md:w-3/6 h-full "
       >
         {products.map((product) => (
           <SwiperSlide

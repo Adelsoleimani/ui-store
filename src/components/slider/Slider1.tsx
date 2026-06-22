@@ -27,7 +27,7 @@ export default function Slider_1() {
             alt="advertisement"
             width={2500}
             height={1500}
-            className="w-full h-full object-fill"
+            className="w-full h-full object-cover"
           />
         </SwiperSlide>
         <SwiperSlide className="text-center">
@@ -36,7 +36,7 @@ export default function Slider_1() {
             alt="advertisement"
             width={2500}
             height={1500}
-            className="w-full h-full object-center"
+            className="w-full h-full object-cover"
           />
         </SwiperSlide>
         <SwiperSlide className="text-center">
